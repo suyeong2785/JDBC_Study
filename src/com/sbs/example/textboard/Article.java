@@ -9,4 +9,9 @@ public class Article {
 	public int id;
 	public String title;
 	public String body;
+	
+	@Override
+	public String toString() {
+		return "Article [id=" + id + ", title=" + title + ", body=" + body + "]";
+	}
 }
